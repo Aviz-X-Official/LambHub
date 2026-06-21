@@ -21,7 +21,7 @@ local EXIT_COLOR = colorFromRGB(255, 255, 0)
 local FREEZER_COLOR = colorFromRGB(100, 150, 255)
 local FREEZER_OCCUPIED_COLOR = colorFromRGB(255, 0, 255)
 
-StarterGui:SetCore("SendNotification", {Title = "ESP Loaded", Text = "Extreme ESP active.", Duration = 4})
+StarterGui:SetCore("SendNotification", {Title = "LambHub Loaded", Text = "By MrZeta", Duration = 4})
 
 local function waitForAdornee(obj)
     if obj:IsA("BasePart") then return obj end
